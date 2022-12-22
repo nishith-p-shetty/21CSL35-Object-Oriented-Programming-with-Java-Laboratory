@@ -10,8 +10,6 @@
             51.0
 */
 
-import java.util.Scanner;
-
 class MethodOverloading
 {
     int add(int a, int b)
