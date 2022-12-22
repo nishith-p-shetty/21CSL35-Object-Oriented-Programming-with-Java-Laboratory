@@ -13,8 +13,6 @@
             Passout Year : 2018
 */
 
-import java.util.Scanner;
-
 public class ConstructorOverloading_5B
 {
     int id, passOutYear;
