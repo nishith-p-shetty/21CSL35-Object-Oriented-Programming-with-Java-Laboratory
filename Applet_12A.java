@@ -8,14 +8,17 @@
         a
 */
 
-import java.util.Scanner;
+import java.applet.Applet;
+import java.awt.Graphics;
+/*
+<applet code="AppletP.class" width="300" height="300">
+</applet>
+*/
 
-public class Applet_12A
+public class Applet_12A extends Applet
 {
-    public static void main(String[] args)
+    public void paint(Graphics g)
     {
-        Scanner sc = new Scanner(System.in);
-
-        sc.close();
+        g.drawString("Welcome to applet",100,150);
     }
 }
